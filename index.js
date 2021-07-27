@@ -1,8 +1,12 @@
 // require inquirer
 const inquirer = require('inquirer');
 
+// require console.table
+const cTable = require('console.table');
+
 // require the connection.js
 const db = require('./db/connection');
+const { start } = require('repl');
 
 // start the application
 startApp();
@@ -33,10 +37,18 @@ function startApp() {
     })
 }
 
-// functions needed
+// if view all departments was selected...
+function viewAllDepartments() {
+    const query = "SELECT * FROM departments";
+    db.query(query, function (err, res) {
+        console.table(departments);
+    })
+    startApp();
+}
 
-// view all departments
 
-// view all roles
+// if view all roles was selected...
 
-// view all employees
+
+
+// if view all employees was selected...
