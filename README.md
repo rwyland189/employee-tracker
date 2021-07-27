@@ -25,7 +25,7 @@
   Start the application by typing "node index.js" at the command line. Answer the series of prompts.
 
   ## Contributing
-  Made with ❤️ by Becca Wyland.
+  Made with ❤️ by Becca Wyland with help from Fahrija Wyroski (fellow coding bootcamp student) and AskBCS LA team.
 
   ## Tests
   inputCheck.test.js
