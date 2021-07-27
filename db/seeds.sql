@@ -17,3 +17,16 @@ VALUES
     ('Fashion Model', 70000, 3),
     ('Photographer', 45000, 3),
     ('Model Agent', 60000, 3);
+
+-- populate employees table
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
+VALUES
+    ('Amanza', 'Smith', 1, NULL),
+    ('Brett', 'Oppenheim', 2, 1),
+    ('Christine', 'Quinn', 3, 1),
+    ('Mary', 'Fitzgerald', 4, NULL),
+    ('Heather', 'Young', 5, 4),
+    ('Davina', 'Potratz', 6, 4),
+    ('Chrishell', 'Stause', 7, 9),
+    ('Jason', 'Oppenheim', 8, 9),
+    ('Maya', 'Vander', 9, NULL);
