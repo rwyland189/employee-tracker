@@ -41,9 +41,9 @@ function startApp() {
 function viewAllDepartments() {
     const query = "SELECT * FROM departments";
     db.query(query, function (err, res) {
-        console.table(departments);
+        console.table(res);
+        startApp();
     })
-    startApp();
 }
 
 
