@@ -58,3 +58,10 @@ function viewAllRoles() {
 
 
 // if view all employees was selected...
+function viewAllEmployees() {
+    const query = "SELECT * FROM employees";
+    db.query(query, function (err, res) {
+        console.table(employees);
+    })
+    startApp();
+}
