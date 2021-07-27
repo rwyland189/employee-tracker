@@ -48,7 +48,13 @@ function viewAllDepartments() {
 
 
 // if view all roles was selected...
-
+function viewAllRoles() {
+    const query = "SELECT * FROM roles";
+    db.query(query, function (err, res) {
+        console.table(roles);
+    })
+    startApp();
+}
 
 
 // if view all employees was selected...
