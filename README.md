@@ -8,12 +8,12 @@
   * [Tests](#tests)
   * [Questions](#Questions)
  
-   ## Walkthrough Video
-   ### Link
-
+  ## Walkthrough Video
+  ### Link
+  https://drive.google.com/file/d/1RGs1fzQSdLn9wGnSdSjg4hViFFCkS1hF/view
 
   ### View as GIF
-  ![Walkthrough](./assets/Walkthrough.gif)
+  ![Walkthrough](./assets/walkthrough.gif)
 
   ## Description
   A command-line application that allows a user to view all departments, roles, and employees within a company. These tables (departments, roles, employees) are all contained in the same database, employeeTracker.
