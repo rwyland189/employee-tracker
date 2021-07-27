@@ -51,9 +51,9 @@ function viewAllDepartments() {
 function viewAllRoles() {
     const query = "SELECT * FROM roles";
     db.query(query, function (err, res) {
-        console.table(roles);
+        console.table(res);
+        startApp();
     })
-    startApp();
 }
 
 
@@ -61,7 +61,7 @@ function viewAllRoles() {
 function viewAllEmployees() {
     const query = "SELECT * FROM employees";
     db.query(query, function (err, res) {
-        console.table(employees);
+        console.table(res);
+        startApp();
     })
-    startApp();
 }
