@@ -2,11 +2,10 @@
 const inquirer = require('inquirer');
 
 // require console.table
-const cTable = require('console.table');
+require('console.table');
 
 // require the connection.js
 const db = require('./db/connection');
-const { start } = require('repl');
 
 // start the application
 startApp();
